@@ -1,0 +1,34 @@
+.App {
+  width: 80%;
+  border: 2px solid black;
+  border-radius: 20px;
+  box-shadow:  grey 4px 4px 2px 5px;
+  margin: 100px auto;
+  
+  
+}
+.item-container{
+  display: flex;
+  flex-direction: column;
+  margin: 20px 40px;
+  
+}
+.App h2{
+  text-align: center;
+  font-size: 40px;
+  
+}
+.item-container ul li{
+  width: 500px;
+  overflow-wrap: break-word;
+  list-style-type:"👉" ;
+  
+}
+.done {
+  text-decoration: line-through;
+}
+.list{
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
